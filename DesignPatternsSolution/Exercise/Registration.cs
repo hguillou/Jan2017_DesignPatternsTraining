@@ -8,6 +8,7 @@ namespace Exercise
         RegisteredObject GetRegistrationInfo();
     }
 
+
     public static class RegistrationRepository
     {
         //registered objects list
@@ -50,7 +51,7 @@ namespace Exercise
         public string Info { get; set; }
         public int Id { get; set; }
         public int AvailableAmount { get; set; }
-
+        
         public override string ToString()
         {
             return Info + " " + "Available: " + AvailableAmount;

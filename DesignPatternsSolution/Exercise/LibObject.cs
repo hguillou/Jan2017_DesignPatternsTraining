@@ -1,6 +1,6 @@
 ﻿namespace Exercise
 {
-    public abstract class LibObject
+    public abstract class LibObject 
     {
         public int ObjectId { get; set; }
         public int AvailableAmount { get; set; }
